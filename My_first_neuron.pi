@@ -1,0 +1,21 @@
+'''
+Se va a realizar una neurona para un transformador de binario a decimla 
+los pasos son.
+
+Algortimo
+0. Inicilizar W ---> Para cada dato(Registro)
+1.Calcular a
+2.Calcular y 
+3.Calcular error 
+4.Actualizar W
+5.Acumular ECM
+
+Esto seria una iteracion.  
+
+'''
+import numpy as np
+import random as rn
+
+
+weights= rn.random()
+print(weights)
